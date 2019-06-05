@@ -1,0 +1,31 @@
+$item-bg-color: $color-white;
+$item-border-color: $color-gray-epsilon;
+
+.sng-product-carousel {
+  margin: 20px 0;
+  text-align: center;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+  }
+
+  &__item {
+    background-color: $item-bg-color;
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+    border: 1px solid $item-border-color;
+  }
+
+  &__image {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__price {
+    padding: 20px 0;
+  }
+}

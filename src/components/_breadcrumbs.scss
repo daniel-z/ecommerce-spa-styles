@@ -1,0 +1,21 @@
+$light-gray: $color-gray-delta;
+
+.sng-breadcrumbs {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+
+  &__item {
+    color: $light-gray;
+    display: inline;
+
+    &:before {
+      content: '>';
+      margin: 0 5px;
+    }
+
+    &:first-child:before {
+      content: '';
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import 'reset';
+@import 'variables';
+@import 'media-queries';
+@import 'main-theme';
+// global components
+@import 'components/header';
+@import 'components/navigation';
+@import 'components/footer';
+@import 'components/breadcrumbs';
+@import 'components/newsletter';
+@import 'components/products-grid';
+@import 'components/products-grid-controls';
+@import 'components/product-item';
+@import 'components/product-carousel';
+// pages
+@import 'pages/index';

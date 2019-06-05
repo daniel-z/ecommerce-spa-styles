@@ -1,0 +1,10 @@
+$light-gray: $color-gray-delta;
+$medium-gray: $color-gray-gamma;
+.sng-plp-hero {
+    margin: 20px 0;
+    height: 350px;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}

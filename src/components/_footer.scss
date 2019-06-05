@@ -1,0 +1,22 @@
+.sng-footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 50px 0;
+  margin-top: 50px;
+
+  &__links {
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+      color: #888;
+    }
+  }
+
+  background-color: #eee;
+}

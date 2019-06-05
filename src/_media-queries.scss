@@ -1,0 +1,34 @@
+// ------------------------
+// Media Queries Variables
+// ------------------------
+
+$screen-xs-max: 575px;
+$screen-sm-min: 576px;
+$screen-sm-max: 767px;
+$screen-md-min: 768px;
+$screen-md-max: 991px;
+$screen-lg-min: 992px;
+$screen-lg-max: 1999px;
+$screen-xl-min: 1200px;
+
+$screen: "only screen" !default;
+
+$landscape: "#{$screen} and (orientation: landscape)" !default;
+$portrait: "#{$screen} and (orientation: portrait)" !default;
+
+// ------------------------
+// Media Queries
+// ------------------------
+
+$xsmall-only: "#{$screen} and (max-width: #{$screen-xs-max})" !default;
+
+$small-only: "#{$screen} and (min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max})" !default;
+$small-up: "#{$screen} and (min-width: #{$screen-sm-min})" !default;
+
+$medium-only: "#{$screen} and (min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max})" !default;
+$medium-up: "#{$screen} and (min-width: #{$screen-md-min})" !default;
+
+$large-only: "#{$screen} and (min-width: #{$screen-lg-min}) and (max-width: #{$screen-lg-max})" !default;
+$large-up: "#{$screen} and (min-width: #{$screen-lg-min})" !default;
+
+$xlarge-only: "#{$screen} and (min-width: #{$screen-xl-min})" !default;

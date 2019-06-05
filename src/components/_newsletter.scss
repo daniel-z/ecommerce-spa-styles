@@ -1,0 +1,42 @@
+$light-gray: $color-gray-alpha;
+$light-gray-2: $color-gray-beta;
+$newsletter-font-family: $light-font-family;
+
+.sng-newsletter {
+  text-align: center;
+  padding: 20px 12%;
+  min-height: 250px;
+  background-color: $light-gray;
+
+  &__title {
+    padding: 10px 0;
+    border-bottom: 1px solid $light-gray;
+  }
+
+  &__copy {
+    font-family: $newsletter-font-family;
+    font-size: 1.4em;
+  }
+
+  &__form {
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  &__email-input,
+  &__subscribe-button {
+    height: 41px;
+  }
+
+  &__email-input {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 20px auto;
+    border: 1px solid $light-gray-2;
+    height: 41px;
+  }
+
+  &__subscribe-button {
+    text-align: center;
+  }
+}

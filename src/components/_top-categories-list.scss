@@ -1,0 +1,25 @@
+$light-gray: $color-gray-alpha;
+
+.sng-top-categories-list {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 40px;
+
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-bottom: 1px solid $light-gray;
+    font-size: 42px;
+  }
+
+  &__item {
+    max-height: 535px;
+    overflow: hidden;
+    padding-top: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

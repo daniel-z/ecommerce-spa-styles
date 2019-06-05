@@ -1,0 +1,50 @@
+$body-background-color: $main-background-color;
+$main-title-font: $strong-font-family;
+$secondary-title-font: $strong-secondary-font-family;
+$main-text-font: $medium-font-family;
+$secondary-text-font: $light-font-family;
+$light-gray: $color-gray-gamma;
+$link-background-color: $color-black;
+$white-color: $color-white;
+$black-color: $color-black;
+
+body {
+  background-color: $body-background-color;
+  font-family: $main-text-font;
+}
+
+h1 {
+  font-family: $main-title-font;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondary-title-font;
+}
+
+a {
+  text-decoration: underline;
+  color: $link-background-color;
+
+  &:hover {
+    color: $light-gray;
+  }
+}
+
+// *********************
+// Buttons
+// *********************
+
+.sng-black-button {
+  text-transform: uppercase;
+  padding: 5px 35px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  background-color: $black-color;
+  color: $white-color;
+  font-family: $secondary-text-font;
+}
