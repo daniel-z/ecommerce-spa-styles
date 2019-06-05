@@ -1,5 +1,5 @@
 {
-    "name": "@daniel-z/ecommerce-spa-styles",
+    "name": "ecommerce-spa-styles",
     "version": "1.0.0",
     "description": "Demo ecommerce styles",
     "main": "main.scss",
